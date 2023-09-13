@@ -1,0 +1,43 @@
+.location-card {
+  border: 1px solid rgba(0, 17, 34, 0.1);
+  padding: 15px 25px;
+  width: 340px;
+  height: 139px;
+  background: rgba(246, 246, 246, 0.2);
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    background: rgb(246, 246, 246);
+  }
+
+  &__name {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 5px;
+  }
+
+  &-stats {
+    margin: 5px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &-edit {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 26px;
+    height: 26px;
+    width: 26px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+    .location-card:hover & {
+      display: flex;
+    }
+  }
+}
