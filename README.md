@@ -1,21 +1,15 @@
-# Points
-
-## Build
+# Install dependencies
 
 ```sh
-$ npm run build
+npm i
+
 ```
 
-Go to `http://localhost:3000`
-
-## Test
-
-```sh
-$ npm run test
+# Start app:
 ```
 
 ## Start
 
 ```sh
-$ npm run start
+$ npm run dev
 ```
